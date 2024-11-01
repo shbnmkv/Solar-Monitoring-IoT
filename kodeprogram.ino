@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL6_n9a0Eb2"
-#define BLYNK_TEMPLATE_NAME "Monitoring Panel"
-#define BLYNK_AUTH_TOKEN "RMZUCyMNXgdhPpDCsO8s7eZ0KhqWWZ1A"
+#define BLYNK_TEMPLATE_ID "XXXXXXXX"
+#define BLYNK_TEMPLATE_NAME "XXXXXXXXXXX"
+#define BLYNK_AUTH_TOKEN "XXXXXXXXXX"
 
 #include <Wire.h>
 #include <Adafruit_INA219.h>
@@ -14,8 +14,8 @@ Adafruit_INA219 sensorINA219;
 LiquidCrystal_I2C lcd(0x27, 16, 2); // LCD I2C address 0x27, ukuran 16x2
 
 // Ganti dengan detail WiFi Anda
-char ssid[] = "SHBN 23_2,4G";
-char pw[] = "shbn1243";
+char ssid[] = "Wifimu";
+char pw[] = "XXXPWXXX";
 
 // Pengaturan NTP client
 WiFiUDP ntpUDP;
